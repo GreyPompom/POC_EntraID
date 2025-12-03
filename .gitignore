@@ -1,0 +1,53 @@
+###################
+# ANGULAR
+###################
+/dist
+/node_modules
+/.angular
+/.angular/cache
+*.log
+
+# Environment files com credenciais
+src/environments/environment.ts
+
+###################
+# DOTNET API
+###################
+bin/
+obj/
+*.user
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# Secret JSON (Google Drive)
+*service-account*.json
+*.key
+*.pfx
+*.cer
+
+# Local settings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Secret.json
+
+# User secrets folder
+**/secrets.json
+
+###################
+# IDE / EDITORS
+###################
+.vscode/
+.vs/
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+###################
+# OS FILES
+###################
+.DS_Store
+Thumbs.db
