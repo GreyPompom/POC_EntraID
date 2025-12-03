@@ -1,0 +1,6 @@
+@BimWorkplace.Api_HostAddress = http://localhost:5161
+
+GET {{BimWorkplace.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
